@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin : 2;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Fira Sans", serif;
+}
+body{
+  background-color: rgb(237, 224, 216);
+}
+.navSection{
+  border : 2px solid rgb(4, 3, 3);
+  display: flex;
+  justify-content: space-between;
+  background-color:salmon ;
+  color:rgb(37, 3, 73);
+  height: 80px;
+}
+.navSection .title{
+  margin-left: 26px;
+ 
+ }
+.navSection .search{
+ margin :15px;
+ position :relative;
+
+}
+.navSection .search input[type="text"]{
+width: 100%;
+padding: 8px 100px;
+border-radius: 6px;
+border-color: palevioletred;
+}
+.navSection .user{
+  display: flex;
+  padding: 20px 50px;
+  margin-right: 10px;
+}
+.navSection .cart{
+  display: flex;
+  padding: 0px 50px;
+ 
+}
+
+.proSection{
+  display: flex;
+  background-color:rgb(246, 242, 242);
+ 
+
+}
+.imgBox{
+  width: 80%;
+  padding-left: 20px;
+}
+.proImage{
+  width: 80%;
+}
+.proTitle h2{
+  margin:10px ;
+}
+.subMenu ul li{
+  list-style: none;
+  margin: 10px 39px;
+  
+  
+}
+.subMenu {
+  overflow-x: auto;
+
+
+  
+} 
+.subMenu {
+  background-color:rgb(245, 217, 202);
+  color:rgb(41, 31, 31);
+  height: 65px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-style:inherit;
+}
+.subMenu ul{
+  display: inline-flex;
+}
+.pageSection{
+  display: grid;
+  grid-template-columns: repeat(4,350px);
+  gap: 10px;
+}
+.pageImg {
+  width:250px;
+  height:250px;
+  
+}
+.pageImg img{
+    width: 100%;
+}
+.ind-image{
+  width: 500px;
+  height:500px;
+}
+.ind-image img{
+  width: 100%;
+}
+.ind-section{
+  display: flex;
+}
+.ind-details{
+  padding:25px;
+}
+.space{
+  margin: 10px;
+}
+.ind-details button{
+  background-color:rgb(243, 29, 5);
+  width: 150px;
+  height:45px;
+  color: aliceblue;
+  border-radius: 5px;
+  border-width: 4px;
+}
+.fullpage{
+ display: flex; 
+}
+.pro-selected{
+  width: 30%;
+  background-color:pink;
+  border: 2px solid silver;
+  border-radius: 3px;
+  border-style: groove;
+  
+}
+.pro-input input{
+  margin: 10px;
+ 
+}
